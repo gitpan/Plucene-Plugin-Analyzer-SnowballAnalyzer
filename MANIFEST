@@ -4,4 +4,5 @@ MANIFEST
 README
 t/Plucene-Plugin-Analyzer-SnowballAnalyzer.t
 lib/Plucene/Plugin/Analyzer/SnowballAnalyzer.pm
+lib/Plucene/Plugin/Analyzer/SnowballFilter.pm
 META.yml                                 Module meta-data (added by MakeMaker)

@@ -7,8 +7,8 @@ BEGIN {
 };
 
 my @tests = (
-	[ "tester cet environnement en français", [qw(test cet environ en franc)], 'fr'],
-	[ "testing the analyzer", [qw(test the analyz)], 'en'],
+	[ "tester cet environnement en français", [qw(test cet environ franc)], 'fr'],
+	[ "testing the analyzer", [qw(test analyz)], 'en'],
 );
 
 my $a = Plucene::Plugin::Analyzer::SnowballAnalyzer->new;
